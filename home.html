@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="profile.css">
+  <link rel="stylesheet" type="text/css" href="extra.css">
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+  
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+}
+#home_img{
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+}
+#home_div{
+  background: url(./img/s5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 632px;
+  /* transform: translateX(-6.5%); */
+}
+#about_me{
+font-weight: bolder;
+font-size: 30px;
+margin-left: 10%;
+margin-top: 10%;
+display: inline-block;
+overflow: auto;
+
+}
+#hobbies_content_header{
+  margin-left: 40%;
+  text-decoration: underline;
+  color:tomato;
+}
+#hobbies_content{
+  position:absolute;
+  margin-top: 455px;
+
+  /* background-color:thistle; */
+  width: 1045px ;
+}
+
+.hobbies_content_items{
+  border: 1px solid;
+  padding: 10px;
+  font-weight: bolder;
+  width: 150px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.hobbies_content_items:hover{
+  border-radius: 10px;
+  background-color: turquoise;
+}
+.hobbies_content_items1:hover{
+  border-radius: 10px;
+  background-color: turquoise;
+}
+.hobbies_content_items2:hover{
+  border-radius: 10px;
+  background-color: turquoise;
+}
+.hobbies_content_items1{
+  border: 1px solid;
+  padding: 10px;
+  font-weight: bolder;
+  width: 150px;
+  text-align: center;
+  margin-left: 380px;
+  margin-top: 20px;
+}
+.hobbies_content_items2{
+  border: 1px solid;
+  padding: 10px;
+  font-weight: bolder;
+  width: 150px;
+  text-align: center;
+  margin-left: 680px;
+  margin-top: 20px;
+}
+#hobbies_content_item1{
+  margin-top: 80px;
+ 
+}
+#hobbies_content_item11{
+  margin-top: -340px;
+  
+}
+#hobbies_content_item21{
+  margin-top: -340px;
+  
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home_div">Home</a></li>
+  <li><a href="#hobbies_content">Hobbies & Interest</a></li>
+  <li><a href="#profiles1">About</a></li>
+</ul>
+
+<div style="margin-left:20%;padding:1px 16px;height:1000px;" id="home_div">
+  <section id="about_me">Hi, <br>I am Harish</section>
+  <!-- <img src="./img/s5.jpg" alt="Img" id="home_img"> -->
+ 
+  <div style="margin-left:-1%;padding:1px 16px;height:1000px;" id="hobbies_content">
+    <h1 id="hobbies_content_header">Hobbies</h2>
+    <section id="hobbies_content_item1" class="hobbies_content_items">Playing Chess</section>
+    <section id="hobbies_content_item2" class="hobbies_content_items">Reading Stories</section>
+    <section id="hobbies_content_item3" class="hobbies_content_items">Swimming</section>
+    <section id="hobbies_content_item4" class="hobbies_content_items">Watching Movies</section>
+    <section id="hobbies_content_item5" class="hobbies_content_items">Badminton</section>
+    <section id="hobbies_content_item6" class="hobbies_content_items">Cricket</section>
+
+    <section id="hobbies_content_item11" class="hobbies_content_items1">Online Games</section>
+    <section id="hobbies_content_item12" class="hobbies_content_items1">Reading Books</section>
+    <section id="hobbies_content_item13" class="hobbies_content_items1">Comics</section>
+    <section id="hobbies_content_item14" class="hobbies_content_items1">Bike Riding</section>
+    <section id="hobbies_content_item15" class="hobbies_content_items1">Roaming</section>
+    <section id="hobbies_content_item16" class="hobbies_content_items1">Music</section>
+
+    <section id="hobbies_content_item21" class="hobbies_content_items2">Online Games</section>
+    <section id="hobbies_content_item22" class="hobbies_content_items2">Reading Books</section>
+    <section id="hobbies_content_item23" class="hobbies_content_items2">Comics</section>
+    <section id="hobbies_content_item24" class="hobbies_content_items2">Bike Riding</section>
+    <section id="hobbies_content_item25" class="hobbies_content_items2">Roaming</section>
+    <section id="hobbies_content_item26" class="hobbies_content_items2">Music</section>
+    
+
+  </div>
+</div>
+<div id="profile">
+        
+  <div id="profiles">
+      <h3 id="profiles1">My Profile</h3>
+      <div id="division">
+          <table cellpadding=15px; width=500px;>
+              <tr>
+                  <td>Name:</td>
+                  <td>ABCDEF</td>
+              </tr>
+              <tr>
+                  <td>Father's Name:</td>
+                  <td>ABCDEF</td>
+              </tr>
+              <tr>
+                  <td>Mother's Name:</td>
+                  <td>ABCDEF</td>
+              </tr>
+              <tr>
+                  <td>Age:</td>
+                  <td>18</td>
+              </tr>
+              <tr>
+                  <td>DOB:</td>
+                  <td>2000</td>
+              </tr>
+              <tr>
+                  <td>Village:</td>
+                  <td>ABCD</td>
+              </tr>
+              <tr>
+                  <td>District:</td>
+                  <td>ABCD</td>
+              </tr>
+              <tr>
+                  <td>State:</td>
+                  <td>AndhraPradesh</td>
+              </tr>
+          </table>
+      </div>
+      <div id="division1">
+          <table cellpadding=15px; width=500px;>
+              <tr>
+                  <td>Interested Areas:</td>
+                  <td>Web desining</td>
+              </tr>
+              <tr>
+                  <td>Hobbies:</td>
+                  <td>Playing online games</td>
+              </tr>
+              <tr>
+                  <td>Goal:</td>
+                  <td>*****************</td>
+              </tr>
+              <tr>
+                  <td>Achievements:</td>
+                  <td>Prathibha award</td>
+              </tr>
+              <tr>
+                  <td>Favourite Hero:</td>
+                  <td>Mahesh Babu</td>
+              </tr>
+              <tr>
+                  <td>Favourite Heroine:</td>
+                  <td>ABCDEFGH IJKL</td>
+              </tr>
+              <tr>
+                  <td>Favourite Movie:</td>
+                  <td>ABCDEFGHIJKL</td>
+              </tr>
+              <tr>
+                  <td>Favourite song:</td>
+                  <td>ABCDEFGH IJKLMN</td>
+              </tr>
+          </table>    
+      </div>
+  </div>
+  
+</div>
+</body>
+</html>

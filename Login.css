@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: mediumturquoise;
+    font-family: sans-serif;
+    /* background-image: url("./img/SplitShire-03692.jpg") no-repeat; */
+    background-size:cover ;
+  
+}
+
+.login {
+    width:260px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    border:2px solid blueviolet;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: darkslategrey;
+    text-align: center;
+    height:350px;
+    opacity: 90%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px red ;
+}
+.login h2 {
+    /* float: left; */
+    border-bottom: 1px solid cornflowerblue;
+    text-shadow: 4px 4px rgb(78, 22, 209);
+    font-size: 35px;
+    
+}
+
+#usr ,#psw ,#btn {
+   margin:15px;
+   padding: 5px;
+   margin-bottom: 30px;
+    color: rgb(45, 49, 46);
+    border-radius: 20px;
+    text-align: center;
+    
+    
+    
+}
+#psw:hover {
+   padding: 7px;
+   box-sizing: border-box;
+   box-shadow: 3px 3px 5px  red ;
+    
+}
+#usr:hover {
+    padding: 7px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px  red ;
+      
+}
+
+#btn {
+    width:100px;
+    padding:6px;
+    background-color: rgb(75, 194, 194);
+    border-radius: 20px;
+    border-color: rgb(197, 81, 226);
+    font-size: 17px;
+}
+#btn:hover {
+    background: rgb(236, 87, 174);
+    text-decoration: underline;
+    font-weight: bolder;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px  red ;
+}

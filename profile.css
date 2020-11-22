@@ -1,0 +1,33 @@
+#profiles1{
+    position:absolute;
+    text-decoration: underline;
+    margin-top: 150px;
+    margin-left: 50%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#division{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 300px;
+    width: 500px;
+    height: 500px;
+}
+table{
+    border-top-style: groove;
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-radius: 20px;
+    border-color: green;
+    background-color: gray;
+}
+#division1{
+    position:absolute;
+    margin-left: 62%;
+    margin-top: 250px;
+}
+#profiles{
+    margin-top: 120px;
+    height: 1000px;
+}
